@@ -44,8 +44,6 @@ done
 wait_and_get_exit_codes "${children_pids[@]}"
 
 echo "EXIT_CODE => $EXIT_CODE"
-set -x
-kubectl rollout restart deployments
-set +x
+
 exit "$EXIT_CODE"
 # end
