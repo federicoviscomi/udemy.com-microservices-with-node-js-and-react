@@ -14,11 +14,18 @@ echo "Delete pods"
 kubectl delete pods --all
 echo
 
-echo "Get deployments services and pods"
+echo "Delete ingress"
+kubectl delete ingress --all
+echo
+
+echo "Get deployments services pods and ingresses"
 kubectl get deployment
 kubectl get service
 kubectl get pods
+kubectl get ingress
 echo
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v0.34.1/deploy/static/provider/cloud/deploy.yaml
 
 echo "Reapply everything"
 cd ${PROJECT_ROOT}/infra/k8s/
@@ -39,6 +46,11 @@ echo
 echo "Pods"
 kubectl get pods
 echo
+echo "Others"
+kubectl get replicationcontroller
+kubectl get rc
+echo
+
 
 
 #DEPLOYMENTS=$(kubectl get deployment -o=name)
