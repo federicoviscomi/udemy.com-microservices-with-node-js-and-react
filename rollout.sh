@@ -1,17 +1,5 @@
 #!/usr/bin/env bash
 PROJECT_ROOT=$(pwd)
-echo "Delete deployments"
-kubectl delete deployment --all
-echo
-echo "Delete services"
-kubectl delete service --all
-echo
-echo "Delete pods"
-kubectl delete pods --all
-echo
-echo "Delete ingress"
-kubectl delete ingress --all
-echo
 echo "Get deployments services pods and ingresses"
 kubectl get deployment
 kubectl get service
