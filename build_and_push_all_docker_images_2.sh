@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
 
 
-find . -type f -name "*.yaml" -print0 | xargs -0 sed -i "s/stephengrider/federicoviscomi/g"
-
-
 # it seems it does not work well if using echo for function return value, and calling inside $() (is a subprocess spawned?)
 function wait_and_get_exit_codes() {
     children=("$@")

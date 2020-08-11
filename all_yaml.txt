@@ -1,3 +1,4 @@
+/Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/ingress-srv.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/query-depl.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/comments-depl.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/event-bus-depl.yaml
