@@ -8,6 +8,8 @@ app.use(bodyParser.json());
 const events = [];
 
 app.post('/events', (req, res) => {
+  console.log('post /events ', req.body);
+
   const event = req.body;
 
   events.push(event);
@@ -21,6 +23,8 @@ app.post('/events', (req, res) => {
 });
 
 app.get('/events', (req, res) => {
+  console.log('get /events ', req.body);
+
   res.send(events);
 });
 

@@ -37,10 +37,14 @@ const handleEvent = (type, data) => {
 };
 
 app.get('/posts', (req, res) => {
+  console.log('get /events ', req.body);
+
   res.send(posts);
 });
 
 app.post('/events', (req, res) => {
+  console.log('post /events', req.body);
+
   const { type, data } = req.body;
 
   handleEvent(type, data);

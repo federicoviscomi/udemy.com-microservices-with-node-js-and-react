@@ -11,10 +11,14 @@ app.use(cors());
 const commentsByPostId = {};
 
 app.get('/posts/:id/comments', (req, res) => {
+  console.log('get /posts/:id/comments ', req.body);
+
   res.send(commentsByPostId[req.params.id] || []);
 });
 
 app.post('/posts/:id/comments', async (req, res) => {
+  console.log('post /posts/:id/comments ', req.body);
+
   const commentId = randomBytes(4).toString('hex');
   const { content } = req.body;
 
@@ -38,7 +42,7 @@ app.post('/posts/:id/comments', async (req, res) => {
 });
 
 app.post('/events', async (req, res) => {
-  console.log('Event Received:', req.body.type);
+  console.log('posts /events ', req.body);
 
   const { type, data } = req.body;
 
