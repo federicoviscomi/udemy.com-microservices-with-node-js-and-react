@@ -7,5 +7,7 @@
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/posts-srv.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/moderation-depl.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/skaffold.yaml
+/Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/infra/k8s/ingress-srv.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/infra/k8s/auth-depl.yaml
+/Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/k8s/ingress-srv.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/skaffold.yaml
