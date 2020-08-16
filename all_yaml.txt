@@ -8,3 +8,4 @@
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/infra/k8s/moderation-depl.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/skaffold.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/infra/k8s/auth-depl.yaml
+/Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/skaffold.yaml
