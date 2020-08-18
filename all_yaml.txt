@@ -9,4 +9,5 @@
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/skaffold.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/infra/k8s/ingress-srv.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/infra/k8s/auth-depl.yaml
+/Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/infra/k8s/auth-mongo-depl.yaml
 /Users/fevi/udemy.com-microservices-with-node-js-and-react/ticketing/skaffold.yaml
