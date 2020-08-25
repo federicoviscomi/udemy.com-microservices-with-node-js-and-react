@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Stop all containers
 docker stop `docker ps -qa`
 
